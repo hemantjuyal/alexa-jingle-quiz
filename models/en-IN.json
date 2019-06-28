@@ -1,0 +1,393 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "superhit sounds",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "quit",
+                        "I don't want to play now",
+                        "I am done",
+                        "good bye",
+                        "lets play some other time",
+                        "I don't want to play"
+                    ]
+                },
+                {
+                    "name": "WelcomeIntent",
+                    "slots": [],
+                    "samples": [
+                        "play superhit sound",
+                        "play superhit sounds",
+                        "one more superhit sound",
+                        "play superhit sound quiz",
+                        "let me try again",
+                        "let me try one more time",
+                        "lets start again",
+                        "lets start the superhit sound quiz again",
+                        "lets play again",
+                        "I want to play again",
+                        "I want to try again",
+                        "give me one more chance"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RiddleAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "riddle_answer",
+                            "type": "sound_names",
+                            "samples": [
+                                "the name of the superhit sound is {riddle_answer}",
+                                "the superhit sound is {riddle_answer}",
+                                "the superhit sound name is {riddle_answer}",
+                                "{riddle_answer}",
+                                "it is {riddle_answer}",
+                                "i think it is {riddle_answer}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "superhit tune is {riddle_answer}",
+                        "tune is {riddle_answer}",
+                        "{riddle_answer}",
+                        "the name of the superhit sound is {riddle_answer}",
+                        "superhit sound is {riddle_answer}",
+                        "superhit sound name is {riddle_answer}",
+                        "the superhit sound is {riddle_answer}",
+                        "the superhit sound name is {riddle_answer}",
+                        "my answer is {riddle_answer}",
+                        "it could be {riddle_answer}",
+                        "it's {riddle_answer}",
+                        "it is {riddle_answer}",
+                        "may be it is {riddle_answer}",
+                        "it may be {riddle_answer}",
+                        "i think it is {riddle_answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": [
+                        "I don't know"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "sound_names",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "vicco",
+                                "synonyms": [
+                                    "vicco vajradanti ayurvedic cream",
+                                    "vicco vajradanti"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tu tu main main",
+                                "synonyms": [
+                                    "tu tu mein mein"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "surabhi",
+                                "synonyms": [
+                                    "surbhi"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "the light of freedom",
+                                "synonyms": [
+                                    "lights of freedom",
+                                    "the lights of freedom",
+                                    "light of freedom"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nirma",
+                                "synonyms": [
+                                    "washing powder nirma",
+                                    "nirma washing powder",
+                                    "nirma washing powder"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mile sure mera tumhara",
+                                "synonyms": [
+                                    "mile sur",
+                                    "mile sur mera"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mahabharat",
+                                "synonyms": [
+                                    "mahabharata"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "maggi",
+                                "synonyms": [
+                                    "maggie noodles",
+                                    "maggie",
+                                    "maggi noodles"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "liril",
+                                "synonyms": [
+                                    "liril soap"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lifebuoy",
+                                "synonyms": [
+                                    "lifebuoy soap"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jungle book",
+                                "synonyms": [
+                                    "mowgli",
+                                    "the jungle book"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flop show"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ek chidiya anek chidiya",
+                                "synonyms": [
+                                    "ek anek chidiya",
+                                    "ek chidiya"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "duck tales"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "d. d.",
+                                "synonyms": [
+                                    "d. d. channel",
+                                    "doordarshan channel",
+                                    "doordarshan"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "d. d. news",
+                                "synonyms": [
+                                    "d. d. news channel",
+                                    "doordarshan news channel",
+                                    "doordarshan news"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dominos",
+                                "synonyms": [
+                                    "dominos pizza"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dhara",
+                                "synonyms": [
+                                    "dhara oil",
+                                    "dhara refined oil"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dekh bhai dekh",
+                                "synonyms": [
+                                    "dekh bhai dekh serial"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "circus",
+                                "synonyms": [
+                                    "circus serial"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cicaba",
+                                "synonyms": [
+                                    "cibaca paste",
+                                    "cibaca tooth paste"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chandrakanta",
+                                "synonyms": [
+                                    "chandrakanta"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cadbury",
+                                "synonyms": [
+                                    "cadbury chocolate"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "byomkesh bakshi",
+                                "synonyms": [
+                                    "byomkesh"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bajaj",
+                                "synonyms": [
+                                    "bajaj scooter",
+                                    "humaara bajaj"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bharat ek khoj",
+                                "synonyms": [
+                                    "bharat ek khoj",
+                                    "discovery of india"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "RiddleAnswerIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "riddle_answer",
+                            "type": "sound_names",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1530037572883.915178156742"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1530037572883.915178156742",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "tell me the superhit sound name "
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "kindly share which superhit sound it is"
+                    }
+                ]
+            }
+        ]
+    }
+}
